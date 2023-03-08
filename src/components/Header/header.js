@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import MenuIcon from '@mui/icons-material/Menu';
-import MenuOpenIcon from '@mui/icons-material/MenuOpen';
+import CloseIcon from '@mui/icons-material/Close';
+import logo from '../../resources/images/logo.png'
 import './header.css'
 
 export function Header() {
@@ -12,15 +13,22 @@ export function Header() {
     return (
         <div>
             <header>
-                <div className={active ? "header-menu-button-active" : "header-menu-button-inactive"}>
-                    {active ? <MenuOpenIcon  fontSize='large' onClick={toggleMenu} /> : <MenuIcon fontSize='large' onClick={toggleMenu} />}
+                <div className={"header-menu-button-inactive"} >
+                    <MenuIcon fontSize='large' onClick={toggleMenu} />
+                    {/*active ? <MenuOpenIcon  fontSize='large' onClick={toggleMenu} /> : <MenuIcon fontSize='large' onClick={toggleMenu} />*/}
                 </div>
                 <div className='header-logo-container'>
-                    <img src="./resources/images/logo.png" />
+                    <img src={logo} />
                     <h1>James Kennedy</h1>
                 </div>
                 <nav className={active ? 'nav-menu-container-active' : 'nav-menu-container-inactive'}>
-                    <ul>
+                    <div className="menu-title-container">
+                        <div className="header-menu-button-active">
+                            <CloseIcon fontSize='large' onClick={toggleMenu} />
+                        </div>
+                        <h2>Menu</h2>
+                    </div>
+                    <ul className="menu-list">
                         <li>Home</li>
                         <li>Portfolio</li>
                         <li>Resume</li>
