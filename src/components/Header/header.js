@@ -18,7 +18,7 @@ export function Header() {
                     {/*active ? <MenuOpenIcon  fontSize='large' onClick={toggleMenu} /> : <MenuIcon fontSize='large' onClick={toggleMenu} />*/}
                 </div>
                 <div className='header-logo-container'>
-                    <img src={logo} />
+                    <img src={logo} alt="personal-logo"/>
                     <h1>James Kennedy</h1>
                 </div>
                 <nav className={active ? 'nav-menu-container-active' : 'nav-menu-container-inactive'}>
