@@ -5,7 +5,7 @@ header {
     position: fixed;
     display: flex;
     justify-items: center;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     background-color: #7C92A1;
     z-index: 2;
@@ -24,5 +24,62 @@ header h1 {
 .header-logo-container {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 1vw;
 }
+
+.header-menu-button-inactive {
+    position: absolute;
+    left: 2%;
+}
+
+.header-menu-button-active {
+    position: absolute;
+    left: 2%;
+}
+
+.nav-menu-container-active {
+    width: 25%;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 10vh;
+    top: 0vh;
+    left: 0vw;
+    padding-left: 0;
+    margin-top: 0;
+    list-style-type: none;
+    background-color: blueviolet;
+    z-index: -1;
+    transform: translate3d(0, 0, 0);
+    transition: transform 1s;
+}
+
+.nav-menu-container-inactive {
+    width: 25vw;
+    height: 80vh;
+    position: fixed;
+    top: 0vh;
+    left: 0vw;
+    padding-left: 0;
+    margin-top: 0;
+    list-style-type: none;
+    background-color: blueviolet;
+    z-index: -1;
+    transform: translate3d(-25vw, 0, 0);
+    transition: transform 1s;
+}
+
+.nav-menu-container ul {
+    display: flex;
+    padding-top: 5vh;
+}
+
+.nav-menu-container li {
+    font-size: x-large;
+    height: auto;
+    width: 100%;
+}
+
