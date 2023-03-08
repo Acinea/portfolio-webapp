@@ -1,0 +1,69 @@
+.banner-container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    font-size: .8em;
+    width: 100%;
+    height: 80vh;
+    padding-top: 20vh;
+    background-image: url('../../resources/images/banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.banner-text-container {
+    width: 33%;
+    padding-top: 6%;
+    padding-right: 10%;
+    text-align: left;
+}
+
+.banner-button {
+    padding: 2%;
+    width: 20vw;
+    font-size: 2rem;
+    border: #629435 solid;
+    border-radius: 15px;
+    color: whitesmoke;
+    background-color: #629435;
+}
+
+.banner-button:hover {
+    color: #629435;
+    background-color: whitesmoke;
+    border: #629435 solid;
+    transition: .5s ease-in;
+}
+
+.banner-button:active {
+    color:whitesmoke;
+    border: whitesmoke solid;
+}
+
+.featured-work-container {
+    width: 100%;
+    height: 80vh;
+    background-color: #CCCCCC;
+}
+
+.featured-work-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0;
+    background-color: white;
+    height: 20vh
+}
+
+.down-carrot {
+    width: 25%;
+}
+
+.featured-work {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60vh;
+}
