@@ -6,15 +6,15 @@ import './home.css';
 
 export function Home() {
     return (
-        <div className='homepage'>
-            <div className="banner-container">
+        <main className='homepage'>
+            <section className="banner-container">
                 <div className="banner-text-container">
                     <h1>Full-Stack Engineering</h1>
                     <h2>Designing engaging digital soloutions that improve performance & user-experience</h2>
                     <Link to='/contact'><button className="banner-button">Contact Me!</button></Link>
                 </div>
-            </div>
-            <div className='featured-work-container'>
+            </section>
+            <section className='featured-work-container'>
                 <div className='featured-work-title'>
                     <h1>Featured Work</h1>
                     <img src={downcarrot} alt="down arrow" className="down-carrot" />
@@ -48,7 +48,11 @@ export function Home() {
                         <img src={desktop} className="desktop-image" alt="desktop template"/>
                     </div>
                 </div>
+            </section>
+            <div className='contact-form-title'>
+                <h1>Lets Connect</h1>
+                <img src={downcarrot} alt="down arrow" className="down-carrot" />
             </div>
-        </div>
+        </main>
     )
 }
