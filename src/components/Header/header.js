@@ -12,13 +12,12 @@ export function Header() {
     }
 
     return (
-        <div>
+        <main>
             <header>
                 <div className={"header-menu-button-inactive"} >
                     <MenuIcon fontSize='large' onClick={toggleMenu} />
-                    {/*active ? <MenuOpenIcon  fontSize='large' onClick={toggleMenu} /> : <MenuIcon fontSize='large' onClick={toggleMenu} />*/}
                 </div>
-                <Link to='/' className='nav-link'><div className='header-logo-container'>
+                <Link to='/' className='header-link'><div className='header-logo-container'>
                     <img src={logo} alt="personal-logo"/>
                     <h1>James Kennedy</h1>
                 </div></Link>
@@ -30,14 +29,14 @@ export function Header() {
                         <h2>Menu</h2>
                     </div>
                     <ul className="menu-list">
-                        <Link to='/' className="nav-link"><li>Home</li></Link>
-                        <Link to='/about' className="nav-link"><li>About Me</li></Link>
-                        <Link to='/' className="nav-link"><li>Portfolio</li></Link>
-                        <Link to='/' className="nav-link"><li>Resume</li></Link>
-                        <Link to='/contact' className="nav-link"><li>Contact</li></Link>
+                        <Link to='/' className="nav-link" onClick={toggleMenu}><li>Home</li></Link>
+                        <Link to='/about' className="nav-link" onClick={toggleMenu}><li>About Me</li></Link>
+                        <Link to='/' className="nav-link" onClick={toggleMenu}><li>Portfolio</li></Link>
+                        <Link to='/' className="nav-link" onClick={toggleMenu}><li>Resume</li></Link>
+                        <Link to='/contact' className="nav-link" onClick={toggleMenu}><li>Contact</li></Link>
                     </ul>
                 </nav>
             </header>
-        </div>
+        </main>
     )
 }
