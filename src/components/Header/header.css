@@ -59,7 +59,7 @@ header h1 {
     left: 0vw;
     padding-left: 0;
     margin-top: 0;
-    background-color: blueviolet;
+    background-color: #538BB0;
     z-index: 0;
     transform: translate3d(0, 0, 0);
     transition: transform 1s;
@@ -74,7 +74,7 @@ header h1 {
     padding-left: 0;
     margin-top: 0;
     list-style-type: none;
-    background-color: blueviolet;
+    background-color: #538BB0;
     z-index: 0;
     transform: translate3d(-25vw, 0, 0);
     transition: transform 1s;
@@ -94,6 +94,7 @@ header h1 {
 
 .menu-title-container {
     height: 20vh;
+    background-color: #54646E;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -102,5 +103,10 @@ header h1 {
 .nav-menu-container li {
     height: auto;
     width: 75%;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
 }
 
