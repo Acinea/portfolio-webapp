@@ -31,7 +31,7 @@ export function Header() {
                     </div>
                     <ul className="menu-list">
                         <Link to='/' className="nav-link"><li>Home</li></Link>
-                        <Link to='/' className="nav-link"><li>About Me</li></Link>
+                        <Link to='/about' className="nav-link"><li>About Me</li></Link>
                         <Link to='/' className="nav-link"><li>Portfolio</li></Link>
                         <Link to='/' className="nav-link"><li>Resume</li></Link>
                         <Link to='/contact' className="nav-link"><li>Contact</li></Link>
