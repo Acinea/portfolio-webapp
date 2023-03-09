@@ -1,0 +1,55 @@
+.education-information-container {
+    padding-top: 20vh;
+    text-align: left;
+    margin-left: 2vw;
+}
+
+.education-list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.education {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 1.5vw;
+    flex-basis: 100%;
+}
+
+.education-logo {
+    width: 10vw;
+}
+
+.skills-list-container {
+    text-align: left;
+    margin-left: 2vw;
+}
+
+.skills-list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.skill {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: .5vw;
+    flex-basis: 100%;
+}
+
+.skill-logo {
+    width: 3vw;
+}
+
+.about-container {
+    text-align: left;
+    margin-left: 2vw;
+}
+
+.about-container p {
+    margin-left: 2vw;
+}
