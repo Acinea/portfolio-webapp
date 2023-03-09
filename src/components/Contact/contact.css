@@ -1,0 +1,115 @@
+.contact-banner-container {
+    height: 80vh;
+    padding-top: 20vh;
+    display: flex;
+    align-items: center;
+    background-image: url(../../resources/images/contact-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.contact-banner-text-container {
+    text-align: left;
+    padding-left: 15vw;
+}
+
+.contact-banner-button {
+    padding: 2%;
+    width: 20vw;
+    font-size: 2rem;
+    border: #629435 solid;
+    border-radius: 15px;
+    color: whitesmoke;
+    background-color: #629435;
+}
+
+.contact-banner-button:hover {
+    color: #629435;
+    background-color: whitesmoke;
+    border: #629435 solid;
+    transition: .5s ease-in;
+}
+
+.contact-form-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0;
+    background-color: white;
+    height: 30vh
+}
+
+#form-anchor {
+    scroll-margin-top: 15vh;
+}
+
+.contact-form-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vh;
+}
+
+.contact-form {
+    width: 75%;
+}
+
+.input-container {
+    display: flex;
+    height: 7.5vh;
+    justify-content: space-between;
+    flex-basis: 33%;
+}
+
+.input {
+    flex-basis: 30%;
+    background-color: #CCCCCC;
+    border: none;
+}
+
+.textarea {
+    width: 100%;
+    border: none;
+    background-color: #CCCCCC;
+}
+
+.contact-submit-button {
+    padding: 2%;
+    width: 15vw;
+    font-size: 1rem;
+    border: #629435 solid;
+    color: whitesmoke;
+    background-color: #629435;
+}
+
+.contact-submit-button:hover {
+    color: #629435;
+    background-color: whitesmoke;
+    border: #629435 solid;
+    transition: .5s ease-in;
+}
+
+.contact-info-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contact-info-title {
+    flex-basis: 25%;
+    flex-grow: 1;
+}
+
+.contact-info-border {
+    flex-basis: 20%;
+    border-top: #629435 solid;
+    width: 90%;
+}
+
+.contact-info {
+    flex-basis: 25%;
+    flex-grow: 1;
+}
