@@ -1,5 +1,4 @@
 import React, { useState, useRef } from 'react';
-import LoopIcon from '@mui/icons-material/Loop';
 
 export function Form() {
     const formRef = useRef(null)
