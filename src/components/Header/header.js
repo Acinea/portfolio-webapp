@@ -18,7 +18,7 @@ export function Header() {
                     <MenuIcon fontSize='large' onClick={toggleMenu} />
                 </div>
                 <Link to='/' className='header-link'><div className='header-logo-container'>
-                    <img src={logo} alt="personal-logo"/>
+                    <img src={logo}  alt="personal-logo"/>
                     <h1>James Kennedy</h1>
                 </div></Link>
                 <nav className={active ? 'nav-menu-container-active' : 'nav-menu-container-inactive'}>
@@ -31,9 +31,8 @@ export function Header() {
                     <ul className="menu-list">
                         <Link to='/' className="nav-link" onClick={toggleMenu}><li>Home</li></Link>
                         <Link to='/about' className="nav-link" onClick={toggleMenu}><li>About Me</li></Link>
-                        <Link to='/' className="nav-link" onClick={toggleMenu}><li>Portfolio</li></Link>
                         <Link to='/' className="nav-link" onClick={toggleMenu}><li>Resume</li></Link>
-                        <Link to='/contact' className="nav-link" onClick={toggleMenu}><li>Contact</li></Link>
+                        <Link to='/contact' className="nav-link" onClick={toggleMenu}><li>Contact Me!</li></Link>
                     </ul>
                 </nav>
             </header>

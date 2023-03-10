@@ -33,6 +33,14 @@ header h1 {
     color: black;
 }
 
+.header-link:hover {
+    color: #93AEBF;
+}
+
+.header-link:active {
+    color: white;
+}
+
 .header-menu-button-inactive {
     position: absolute;
     left: 2%;
@@ -40,7 +48,7 @@ header h1 {
 
 .header-menu-button-inactive:hover {
     border-radius: 100%;
-    background-color: antiquewhite;
+    background-color: #93AEBF;
     cursor: pointer;
     transform: scale(1.25);
 }
@@ -65,7 +73,7 @@ header h1 {
     left: 0vw;
     padding-left: 0;
     margin-top: 0;
-    background-color: #538BB0;
+    background-color: #93AEBF;
     z-index: 0;
     transform: translate3d(0, 0, 0);
     transition: transform 1s;
@@ -80,7 +88,7 @@ header h1 {
     padding-left: 0;
     margin-top: 0;
     list-style-type: none;
-    background-color: #538BB0;
+    background-color: #93AEBF;
     z-index: 0;
     transform: translate3d(-25vw, 0, 0);
     transition: transform 1s;
@@ -100,7 +108,8 @@ header h1 {
 
 .menu-title-container {
     height: 20vh;
-    background-color: #54646E;
+    background-color: #6A7D8A;
+    border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -118,5 +127,9 @@ header h1 {
 
 .nav-link:hover {
     transform: scale(1.25);
+}
+
+.nav-link:active {
+    color: white;
 }
 
