@@ -18,23 +18,6 @@ export function Contact() {
                 <h1>Lets Connect</h1>
                 <img src={downcarrot} alt="down arrow" className="down-carrot" />
             </div>
-            <section className='contact-form-container'>
-                <form className='contact-form' id="contact-form">
-                    <div className="input-container">
-                        <input required className='input' type="text" name="name" placeholder="Your Name" />
-                        <input required className='input' type="email" name="email" placeholder="Your Email" />
-                        <input required className='input' type="text" name="web" placeholder="Your Company/Website" />
-                    </div>
-                    <br></br>
-                    <div className="textarea-container">
-                        <textarea required className="textarea" name="contact-content" placeholder="What would you like to discuss?" cols="100" rows="10" resize="none"></textarea>
-                    </div>
-                    <br></br>
-                    <div className="contact-submit-button-container">
-                        <input type="submit" value="Submit" className="contact-submit-button" /> 
-                    </div>
-                </form>
-            </section>
             <Form />
         </main>
     )
