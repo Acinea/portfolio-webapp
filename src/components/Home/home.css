@@ -14,7 +14,7 @@
 
 .banner-text-container {
     width: 33%;
-    padding-top: 6%;
+    padding-top: 8%;
     padding-right: 10%;
     text-align: left;
 }
@@ -31,7 +31,7 @@
 
 .banner-button:hover {
     color: #629435;
-    background-color: whitesmoke;
+    background-color: #B8E094;
     border: #629435 solid;
     transition: .5s ease-in;
 }
@@ -81,6 +81,11 @@
 .desktop-image {
     flex-basis: 40%;
     max-width: 30%;
+}
+
+.skills-used-container {
+    display: flex;
+    column-gap: 1vw;
 }
 
 .top {
