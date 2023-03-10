@@ -1,7 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 import downcarrot from '../../resources/images/down-carrot.png';
-import desktop from '../../resources/images/desktop-template.png';
+import kenneddit from '../../resources/images/kenneddit-desktop.png'
+import portdesktop from '../../resources/images/portfolio-webapp-desktop.png'
+import pythondesktop from '../../resources/images/pythondesktop.png'
 import './home.css';
 
 export function Home() {
@@ -27,10 +29,10 @@ export function Home() {
                                 <p>A lite Reddit Client built in React. This client extracts and organizes JSON data from the Reddit API to allow users to search for their favorite sub-reddit, and view relavent posts and comments with a simple, yet beautiful UI.</p>
                             </div>
                         </div>
-                        <img src={desktop} className="desktop-image" alt="desktop template"/>
+                        <img src={kenneddit} className="desktop-image" alt="desktop template"/>
                     </div>
                     <div className='mid'>
-                        <img src={desktop} className="desktop-image" alt="desktop template"/>
+                        <img src={portdesktop} className="desktop-image" alt="desktop template"/>
                         <div className="featured-work-description">
                             <div className='mid-content'>
                                 <h1>Portfolio Webapp</h1>
@@ -45,7 +47,7 @@ export function Home() {
                                 <p>Using Jupyter Notebook and Pyton3, this file contains the results of extracting and organizing raw Medical Insurance Data from Kaggle Datasets.</p>
                             </div>
                         </div>
-                        <img src={desktop} className="desktop-image" alt="desktop template"/>
+                        <img src={pythondesktop} className="desktop-image" alt="desktop template"/>
                     </div>
                 </div>
             </section>

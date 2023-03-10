@@ -64,6 +64,8 @@
 
 .featured-work {
     display: flex;
+    margin-top: 5vw;
+    padding-bottom: 5vw;
     flex-direction: column;
     flex-wrap: nowrap;
     row-gap: 5vh;
@@ -78,6 +80,7 @@
 
 .desktop-image {
     flex-basis: 40%;
+    max-width: 30%;
 }
 
 .top {
