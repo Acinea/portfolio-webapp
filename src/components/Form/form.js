@@ -2,7 +2,7 @@ import React, { useState, useRef } from 'react';
 
 export function Form() {
     const formRef = useRef(null)
-    const scriptUrl = "https://script.google.com/macros/s/AKfycbwE9qd2zO-o3JvM7clLGz8DbNEuKmQHn3fSPDxT5XPGgTI_FsGOv9zzXIyi7w7DGI2J/exec"
+    const scriptUrl = "https://script.google.com/macros/s/AKfycbzedHbZUebxyT-T-pkRa3td3Pg43JaaQUd3Ub0bTLrrSDvGvjz_YihWlFLJtsj2094P/exec"
     const [loading, setLoading] = useState(false)
 
     const handleSubmit = (e) =>{
@@ -22,7 +22,7 @@ export function Form() {
 
     return (
         <section className='contact-form-container'>
-                <form className='contact-form' id="contact-form" ref={formRef}>
+                <form className='contact-form' id="contact-form" ref={formRef} name="google-sheet">
                     <div className="input-container">
                         <input required className='input' type="text" name="name" placeholder="Your Name" />
                         <input required className='input' type="email" name="email" placeholder="Your Email" />
