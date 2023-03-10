@@ -1,8 +1,10 @@
 import React from 'react'
+import { Form } from '../Form/form'
 import downcarrot from '../../resources/images/down-carrot.png';
 import './contact.css'
 
 export function Contact() {
+
     return (
         <main className='contact-page'>
             <div className='contact-banner-container'>
@@ -17,7 +19,7 @@ export function Contact() {
                 <img src={downcarrot} alt="down arrow" className="down-carrot" />
             </div>
             <section className='contact-form-container'>
-                <form className='contact-form'>
+                <form className='contact-form' id="contact-form">
                     <div className="input-container">
                         <input required className='input' type="text" name="name" placeholder="Your Name" />
                         <input required className='input' type="email" name="email" placeholder="Your Email" />
@@ -33,6 +35,7 @@ export function Contact() {
                     </div>
                 </form>
             </section>
+            <Form />
         </main>
     )
 }

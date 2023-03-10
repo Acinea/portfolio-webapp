@@ -26,7 +26,7 @@
 
 .contact-banner-button:hover {
     color: #629435;
-    background-color: whitesmoke;
+    background-color: #B8E094;
     border: #629435 solid;
     transition: .5s ease-in;
 }
@@ -85,7 +85,7 @@
 
 .contact-submit-button:hover {
     color: #629435;
-    background-color: whitesmoke;
+    background-color: #B8E094;
     border: #629435 solid;
     transition: .5s ease-in;
 }
