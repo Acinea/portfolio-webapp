@@ -46,7 +46,7 @@ export function About() {
                         <p>HTML</p>
                     </li>
                     <li className="skill">
-                        <img src={csslogo} className="skill-logo" alt="css logo" />
+                        <img src={csslogo} className="skill-logo" id="css-logo" alt="css logo" />
                         <p>CSS</p>
                     </li>
                     <li className="skill">

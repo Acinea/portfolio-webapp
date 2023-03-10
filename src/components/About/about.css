@@ -47,6 +47,12 @@
 
 .skill-logo {
     width: 3vw;
+    height: auto;
+}
+
+#css-logo {
+    width: 2vw;
+    height: auto;
 }
 
 .about-container {
