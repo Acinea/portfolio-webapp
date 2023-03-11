@@ -15,7 +15,7 @@ export function Contact() {
                 </div>
             </div>
             <div id="form-anchor" className='contact-form-title'>
-                <h1>Lets Connect</h1>
+                <h1>Let's Connect</h1>
                 <img src={downcarrot} alt="down arrow" className="down-carrot" />
             </div>
             <Form />
