@@ -1,0 +1,13 @@
+.resume-container {
+    padding-top: 20vh;
+}
+
+.resume {
+    height: 80vh;
+    width: 80vw;
+}
+
+iframe {
+    height: 80vh;
+    width: 80vw;
+}
