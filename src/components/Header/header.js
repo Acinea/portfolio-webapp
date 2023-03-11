@@ -12,7 +12,6 @@ export function Header() {
     }
 
     return (
-        <main>
             <header>
                 <div className={"header-menu-button-inactive"} >
                     <MenuIcon fontSize='large' onClick={toggleMenu} />
@@ -28,6 +27,9 @@ export function Header() {
                         </div>
                         <h2>Menu</h2>
                     </div>
+                    <div className={active ? 'blackout-active' : 'blackout-inactive'} onClick={toggleMenu}>
+
+                    </div>
                     <ul className="menu-list">
                         <Link to='/' className="nav-link" onClick={toggleMenu}><li>Home</li></Link>
                         <Link to='/about' className="nav-link" onClick={toggleMenu}><li>About Me</li></Link>
@@ -36,6 +38,5 @@ export function Header() {
                     </ul>
                 </nav>
             </header>
-        </main>
     )
 }
