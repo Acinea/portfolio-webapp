@@ -4,7 +4,7 @@ import './footer.css'
 
 export function Footer() {
     return (
-        <main>
+        <footer>
             <section className='contact-info-container'>
                 <h2 className='contact-info'>Location</h2>
                 <h2 className='contact-info'>Phone</h2>
@@ -25,6 +25,6 @@ export function Footer() {
                     <h4>ⓒ 2023</h4>
                 </div>
             </div>
-        </main>
+        </footer>
     )
 }
