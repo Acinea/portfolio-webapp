@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 import cclogo from '../../resources/images/codecademy-logo.png'
 import rulogo from '../../resources/images/rowan-logo.png'
 import tcnjlogo from '../../resources/images/tcnj-logo.png'
@@ -85,8 +86,9 @@ export function About() {
                 <p>Computer Science has always been a casual hobby of mine, but when it came time for college  I ultimately pursued other ambitions. In 2015 I graduated from The College of New Jersey and quickly accepted my current position as a Middle School Math Teacher in the Perth Amboy School District, a position I've held for the past 7 years. During my time as a teacher, I utilized my expertise in Computer Science by running extracirrcular clubs like "The Coding Club". Most recently, I graduated from Rowan University with a Masters in School Administration. Throughout this program I continued to utilize Computer Science to carry my reports and presentaitons to the next level. <br></br><br></br> Although I have invested much of my educational career in the field of Education, my experience has taught me that my passion for Computer Science has remained prevalent throughout. In following this passion, I have completed certifications through Codecademy and am eager to utilize my skills in your next project.</p>
             </section>
             <div className='contact-form-title'>
-                <h1>Lets Connect</h1>
+                <h1>Let's Connect</h1>
                 <img src={downcarrot} alt="down arrow" className="down-carrot" />
+                <Link to='/contact'><button className="banner-button">Contact Me!</button></Link>
             </div>
         </main>
     )
