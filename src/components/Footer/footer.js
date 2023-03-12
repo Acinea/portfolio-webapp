@@ -6,18 +6,26 @@ export function Footer() {
     return (
         <footer>
             <section className='contact-info-container'>
-                <h2 className='contact-info'>Location</h2>
-                <h2 className='contact-info'>Phone</h2>
-                <h2 className='contact-info'>Email</h2>
-                <h2 className='contact-info'>Github</h2>
-                <p className='contact-info-border'></p>
-                <p className='contact-info-border'></p>
-                <p className='contact-info-border'></p>
-                <p className='contact-info-border'></p>
-                <h3 className='contact-info'>Old Bridge, New Jersey</h3>
-                <h3 className='contact-info'>(848) 459-0968</h3>
-                <h3 className='contact-info'>acinea.kennedy@gmail.com</h3>
-                <a className='github-link' href="https://github.com/Acinea" target="_blank" rel="noreferrer" ><h3 className='contact-info'>https://github.com/Acinea</h3></a>
+                <div className='contact-info'>
+                    <h2>Location</h2>
+                    <p className='contact-info-border'></p>
+                    <h4>Old Bridge, New Jersey</h4>
+                </div>
+                    <div className='contact-info'>
+                    <h2>Phone</h2>
+                    <p className='contact-info-border'></p>
+                    <h4>(848) 459-0968</h4>
+                </div>
+                <div className='contact-info'>
+                    <h2>Email</h2>
+                    <p className='contact-info-border'></p>
+                    <h4>acinea.kennedy@gmail.com</h4>
+                </div>
+                <div className='contact-info' id='github-info'>
+                    <h2>Github</h2>
+                    <p className='contact-info-border'></p>
+                    <a className='github-link' href="https://github.com/Acinea" target="_blank" rel="noreferrer" ><h4>https://github.com/Acinea</h4></a>
+                </div>             
             </section>
             <div className='footer-container'>
                 <div className='footer-content'>
