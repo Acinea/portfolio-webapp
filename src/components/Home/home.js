@@ -18,7 +18,7 @@ export function Home() {
         <main className='homepage'>
             <section className="banner-container">
                 <div className="banner-text-container">
-                    <h1>Full-Stack Engineer</h1>
+                    <h1>Web Developer</h1>
                     <h2>Designing engaging digital soloutions that improve performance & user-experience</h2>
                     <Link to='/contact'><button className="banner-button" id="home-banner-button">Contact Me!</button></Link>
                 </div>

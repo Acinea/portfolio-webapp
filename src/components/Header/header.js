@@ -16,7 +16,7 @@ export function Header() {
                 <div className={"header-menu-button-inactive"} >
                     <MenuIcon fontSize='large' onClick={toggleMenu} />
                 </div>
-                <Link to='/' className='header-link'><div className='header-logo-container'>
+                <Link to='/portfolio-webapp/' className='header-link'><div className='header-logo-container'>
                     <img src={logo}  alt="personal-logo"/>
                     <h1>James Kennedy</h1>
                 </div></Link>
@@ -31,10 +31,10 @@ export function Header() {
 
                     </div>
                     <ul className="menu-list">
-                        <Link to='/' className="nav-link" onClick={toggleMenu}><li>Home</li></Link>
-                        <Link to='/about' className="nav-link" onClick={toggleMenu}><li>About Me</li></Link>
-                        <Link to='/resume' className="nav-link" onClick={toggleMenu}><li>Resume</li></Link>
-                        <Link to='/contact' className="nav-link" onClick={toggleMenu}><li>Contact Me!</li></Link>
+                        <Link to='/portfolio-webapp/' className="nav-link" onClick={toggleMenu}><li>Home</li></Link>
+                        <Link to='/portfolio-webapp/about' className="nav-link" onClick={toggleMenu}><li>About Me</li></Link>
+                        <Link to='/portfolio-webapp/resume' className="nav-link" onClick={toggleMenu}><li>Resume</li></Link>
+                        <Link to='/portfolio-webapp/contact' className="nav-link" onClick={toggleMenu}><li>Contact Me!</li></Link>
                     </ul>
                 </nav>
             </header>

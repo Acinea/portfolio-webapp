@@ -26,10 +26,10 @@ function App() {
       <div className="App">
         <Header />
         <Routes>
-          <Route path='/' exact element={ <Home /> } />
-          <Route path='/about' element={ <About /> } />
-          <Route path='/contact' element={ <Contact /> } />
-          <Route path='/resume' element={ <Resume />} />
+          <Route path='/portfolio-webapp/' exact element={ <Home /> } />
+          <Route path='/portfolio-webapp/about' element={ <About /> } />
+          <Route path='/portfolio-webapp/contact' element={ <Contact /> } />
+          <Route path='/portfolio-webapp/resume' element={ <Resume />} />
         </Routes>
         <Footer />
       </div>
