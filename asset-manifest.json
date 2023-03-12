@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/portfolio-webapp/static/css/main.c5c5bd87.css",
+    "main.js": "/portfolio-webapp/static/js/main.6a32ab96.js",
+    "static/js/787.12547c35.chunk.js": "/portfolio-webapp/static/js/787.12547c35.chunk.js",
+    "static/media/portfolio-webapp-desktop.png": "/portfolio-webapp/static/media/portfolio-webapp-desktop.363e876007f0bb5d7149.png",
+    "static/media/kenneddit-desktop.png": "/portfolio-webapp/static/media/kenneddit-desktop.64496f2bcfa57d1904ce.png",
+    "static/media/pythondesktop.png": "/portfolio-webapp/static/media/pythondesktop.e5a788e237d7a6167207.png",
+    "static/media/python-logo.png": "/portfolio-webapp/static/media/python-logo.91072be85b01ef0961a8.png",
+    "static/media/contact-banner.jpg": "/portfolio-webapp/static/media/contact-banner.4926ff1778119af63e49.jpg",
+    "static/media/banner.jpg": "/portfolio-webapp/static/media/banner.578807abf2bd00a60a3a.jpg",
+    "static/media/react-icon.png": "/portfolio-webapp/static/media/react-icon.81ed438b18e24116794d.png",
+    "static/media/mysql-logo.png": "/portfolio-webapp/static/media/mysql-logo.ef465e6235f8bbe6a198.png",
+    "static/media/node-logo.png": "/portfolio-webapp/static/media/node-logo.d980d9636ace07ad3dde.png",
+    "static/media/jupyter-logo.png": "/portfolio-webapp/static/media/jupyter-logo.e0e612fd290b62ecd44a.png",
+    "static/media/tcnj-logo.png": "/portfolio-webapp/static/media/tcnj-logo.61f65019baff91925a44.png",
+    "static/media/html-logo.png": "/portfolio-webapp/static/media/html-logo.d8736704484303963b1d.png",
+    "static/media/js-logo.png": "/portfolio-webapp/static/media/js-logo.dcd2953c3a5015560032.png",
+    "static/media/codecademy-logo.png": "/portfolio-webapp/static/media/codecademy-logo.5c60c89a8608dae0c06b.png",
+    "static/media/css-logo.png": "/portfolio-webapp/static/media/css-logo.6402b604475346c0ff73.png",
+    "static/media/resume.pdf": "/portfolio-webapp/static/media/resume.21353293285fc1c32ad0.pdf",
+    "static/media/redux-logo.png": "/portfolio-webapp/static/media/redux-logo.b3b939c66aecf7d53967.png",
+    "static/media/rowan-logo.png": "/portfolio-webapp/static/media/rowan-logo.26d24a29612509ad81f2.png",
+    "index.html": "/portfolio-webapp/index.html",
+    "main.c5c5bd87.css.map": "/portfolio-webapp/static/css/main.c5c5bd87.css.map",
+    "main.6a32ab96.js.map": "/portfolio-webapp/static/js/main.6a32ab96.js.map",
+    "787.12547c35.chunk.js.map": "/portfolio-webapp/static/js/787.12547c35.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5c5bd87.css",
+    "static/js/main.6a32ab96.js"
+  ]
+}
