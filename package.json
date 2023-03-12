@@ -2,7 +2,7 @@
   "name": "portfolio-webapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Acinea.github.io/portfolio-webapp",
+  "homepage": "https://acinea.github.io/portfolio-webapp",
   "dependencies": {
     "-": "^0.0.1",
     "@emotion/react": "^11.10.6",
@@ -21,9 +21,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
