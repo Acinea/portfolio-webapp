@@ -96,7 +96,55 @@
         height: 10vw;
     }
 
+    .about-container p {
+        margin-right: 2vw;
+    }
+
     .down-carrot {
         width: 75%;
     }
+    
 }
+
+@media only screen and (min-width: 601px) and (max-width: 1000px){ 
+    .education-list {
+        padding-left: 1vw;
+    }
+
+    .education-logo {
+        width: 25vw;
+    }
+
+    .education p {
+        font-size: x-large;
+    }
+
+    .skills-list {
+        padding-left: 1vw;
+        flex-wrap: wrap;
+    }
+
+    .skill {
+        flex-basis: 33%;
+    }
+
+    #css-logo {
+        width: 5vw;
+        height: 8vw;
+    }
+
+    .skill-logo {
+        width: 8vw;
+        height: 8vw;
+    }
+
+    .about-container p {
+        margin-right: 2vw;
+    }
+
+    .down-carrot {
+        width: 75%;
+    }
+
+}
+

@@ -67,30 +67,6 @@
     transition: .5s ease-in;
 }
 
-.contact-info-container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.contact-info-title {
-    flex-basis: 25%;
-    flex-grow: 1;
-}
-
-.contact-info-border {
-    flex-basis: 20%;
-    border-top: #629435 solid;
-    width: 90%;
-}
-
-.contact-info {
-    flex-basis: 25%;
-    flex-grow: 1;
-}
-
   @keyframes App-logo-spin {
     from {
       transform: rotate(360deg);

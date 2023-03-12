@@ -156,4 +156,52 @@ header h1 {
     .nav-menu-container-active {
         width: 50vw;
     }
+
+    .nav-menu-container-inactive {
+        width: 50vw;
+        transform: translate3d(-55vw, 0, 0);
+    }
+
+    .nav-link:hover {
+        transform: none;
+    }
+
+    .navlink:active {
+        color: none;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1000px) { 
+    header h1 {
+        font-size: xxx-large;
+    }
+
+    .nav-menu-container-active {
+        width: 50vw;
+    }
+
+    .nav-menu-container-inactive {
+        width: 50vw;
+        transform: translate3d(-55vw, 0, 0);
+    }
+
+    .nav-link:hover {
+        transform: none;
+    }
+
+    .navlink:active {
+        color: none;
+    }
+
+    .menu-title-container {
+        font-size: x-large;
+    }
+
+    .nav-menu-container-active li {
+        font-size: xx-large;
+    }
+
+    .nav-menu-container-inactive li {
+        font-size: xx-large;
+    }
 }
