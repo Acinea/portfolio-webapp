@@ -19,8 +19,10 @@ export function Home() {
             <section className="banner-container">
                 <div className="banner-text-container">
                     <h1>Web Developer</h1>
+                    <div className="mobile-banner">
                     <h2>Designing engaging digital soloutions that improve performance & user-experience</h2>
                     <Link to='/portfolio-webapp/contact'><button className="banner-button" id="home-banner-button">Contact Me!</button></Link>
+                    </div>
                 </div>
             </section>
             <section className='featured-work-container'>
