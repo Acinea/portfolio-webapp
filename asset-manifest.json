@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-webapp/static/css/main.c5c5bd87.css",
+    "main.css": "/portfolio-webapp/static/css/main.507fff04.css",
     "main.js": "/portfolio-webapp/static/js/main.6a32ab96.js",
     "static/js/787.12547c35.chunk.js": "/portfolio-webapp/static/js/787.12547c35.chunk.js",
     "static/media/portfolio-webapp-desktop.png": "/portfolio-webapp/static/media/portfolio-webapp-desktop.363e876007f0bb5d7149.png",
@@ -22,12 +22,12 @@
     "static/media/redux-logo.png": "/portfolio-webapp/static/media/redux-logo.b3b939c66aecf7d53967.png",
     "static/media/rowan-logo.png": "/portfolio-webapp/static/media/rowan-logo.26d24a29612509ad81f2.png",
     "index.html": "/portfolio-webapp/index.html",
-    "main.c5c5bd87.css.map": "/portfolio-webapp/static/css/main.c5c5bd87.css.map",
+    "main.507fff04.css.map": "/portfolio-webapp/static/css/main.507fff04.css.map",
     "main.6a32ab96.js.map": "/portfolio-webapp/static/js/main.6a32ab96.js.map",
     "787.12547c35.chunk.js.map": "/portfolio-webapp/static/js/787.12547c35.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5c5bd87.css",
+    "static/css/main.507fff04.css",
     "static/js/main.6a32ab96.js"
   ]
 }
