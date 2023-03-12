@@ -149,8 +149,20 @@ header h1 {
 }
 
 @media only screen and (max-width: 600px) {
+
+    header {
+        height: 15vh;
+    }
     header h1 {
-        font-size: larger;
+        font-size: x-large;
+    }
+
+    .header-link:hover {
+        color: black;
+    }
+
+    .menu-title-container {
+        height: 15vh;
     }
 
     .nav-menu-container-active {
@@ -168,6 +180,10 @@ header h1 {
 
     .navlink:active {
         color: none;
+    }
+
+    :hover {
+        
     }
 }
 

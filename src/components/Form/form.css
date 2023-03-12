@@ -75,3 +75,9 @@
       transform: rotate(0deg);
     }
   }
+
+  @media only screen and (max-width: 600px) { 
+    .contact-submit-button {
+        height: 7vh;
+    }
+  }
