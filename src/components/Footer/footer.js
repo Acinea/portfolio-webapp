@@ -17,7 +17,7 @@ export function Footer() {
                 <h3 className='contact-info'>Old Bridge, New Jersey</h3>
                 <h3 className='contact-info'>(848) 459-0968</h3>
                 <h3 className='contact-info'>acinea.kennedy@gmail.com</h3>
-                <h3 className='contact-info'>https://github.com/Acinea</h3>
+                <a className='github-link' href="https://github.com/Acinea" target="_blank" rel="noreferrer" ><h3 className='contact-info'>https://github.com/Acinea</h3></a>
             </section>
             <div className='footer-container'>
                 <div className='footer-content'>

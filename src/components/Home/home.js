@@ -20,7 +20,7 @@ export function Home() {
                 <div className="banner-text-container">
                     <h1>Full-Stack Engineering</h1>
                     <h2>Designing engaging digital soloutions that improve performance & user-experience</h2>
-                    <Link to='/contact'><button className="banner-button">Contact Me!</button></Link>
+                    <Link to='/contact'><button className="banner-button" id="home-banner-button">Contact Me!</button></Link>
                 </div>
             </section>
             <section className='featured-work-container'>
@@ -44,10 +44,10 @@ export function Home() {
                                 </div>
                             </div>
                         </div>
-                        <img src={kenneddit} className="desktop-image" alt="desktop template"/>
+                        <a  className="featured-links" href="https://acinea.github.io/reddit-client/" target="_blank" rel="noreferrer"><img src={kenneddit} className="desktop-image" alt="desktop template"/></a>
                     </div>
                     <div className='mid'>
-                        <img src={portdesktop} className="desktop-image" alt="desktop template"/>
+                        <a className="featured-links" href="/"><img src={portdesktop} className="desktop-image" alt="desktop template"/></a>
                         <div className="featured-work-description">
                             <div className='mid-content'>
                                 <h1>Portfolio Webapp</h1>
@@ -74,7 +74,7 @@ export function Home() {
                                 </div>
                             </div>
                         </div>
-                        <img src={pythondesktop} className="desktop-image" alt="desktop template"/>
+                        <a className="featured-links" href="https://github.com/Acinea/Python-Medical-Data-Project" target="_blank" rel="noreferrer"><img src={pythondesktop} className="desktop-image" alt="desktop template"/></a>
                     </div>
                 </div>
             </section>
