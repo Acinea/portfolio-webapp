@@ -63,3 +63,40 @@
 .about-container p {
     margin-left: 2vw;
 }
+
+@media only screen and (max-width: 600px) {
+    .education-list {
+        padding-left: 1vw;
+    }
+
+    .education-logo {
+        width: 25vw;
+    }
+
+    .education p {
+        font-size: smaller;
+    }
+
+    .skills-list {
+        padding-left: 1vw;
+        flex-wrap: wrap;
+    }
+
+    .skill {
+        flex-basis: 33%;
+    }
+
+    #css-logo {
+        width: 7vw;
+        height: 10vw;
+    }
+
+    .skill-logo {
+        width: 10vw;
+        height: 10vw;
+    }
+
+    .down-carrot {
+        width: 75%;
+    }
+}
