@@ -88,7 +88,7 @@ export function About() {
             <div className='contact-form-title'>
                 <h1>Let's Connect</h1>
                 <img src={downcarrot} alt="down arrow" className="down-carrot" />
-                <Link to='/contact'><button className="banner-button">Contact Me!</button></Link>
+                <Link to='/portfolio-webapp/contact'><button className="banner-button">Contact Me!</button></Link>
             </div>
         </main>
     )

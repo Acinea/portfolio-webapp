@@ -20,7 +20,7 @@ export function Home() {
                 <div className="banner-text-container">
                     <h1>Web Developer</h1>
                     <h2>Designing engaging digital soloutions that improve performance & user-experience</h2>
-                    <Link to='/contact'><button className="banner-button" id="home-banner-button">Contact Me!</button></Link>
+                    <Link to='/portfolio-webapp/contact'><button className="banner-button" id="home-banner-button">Contact Me!</button></Link>
                 </div>
             </section>
             <section className='featured-work-container'>
@@ -81,7 +81,7 @@ export function Home() {
             <div className='contact-form-title'>
                 <h1>Let's Connect</h1>
                 <img src={downcarrot} alt="down arrow" className="down-carrot" />
-                <Link to='/contact'><button className="banner-button">Contact Me!</button></Link>
+                <Link to='/portfolio-webapp/contact'><button className="banner-button">Contact Me!</button></Link>
             </div>
         </main>
     )
