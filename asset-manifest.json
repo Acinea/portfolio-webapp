@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio-webapp/static/css/main.9e81c29d.css",
-    "main.js": "/portfolio-webapp/static/js/main.32333d17.js",
+    "main.css": "/portfolio-webapp/static/css/main.16dfcdc0.css",
+    "main.js": "/portfolio-webapp/static/js/main.dc909aae.js",
     "static/js/787.12547c35.chunk.js": "/portfolio-webapp/static/js/787.12547c35.chunk.js",
     "static/media/portfolio-webapp-desktop.png": "/portfolio-webapp/static/media/portfolio-webapp-desktop.363e876007f0bb5d7149.png",
+    "static/media/tcpdesktop.png": "/portfolio-webapp/static/media/tcpdesktop.5fad19900e3b3af55933.png",
     "static/media/kenneddit-desktop.png": "/portfolio-webapp/static/media/kenneddit-desktop.64496f2bcfa57d1904ce.png",
     "static/media/pythondesktop.png": "/portfolio-webapp/static/media/pythondesktop.e5a788e237d7a6167207.png",
     "static/media/python-logo.png": "/portfolio-webapp/static/media/python-logo.91072be85b01ef0961a8.png",
@@ -22,12 +23,12 @@
     "static/media/redux-logo.png": "/portfolio-webapp/static/media/redux-logo.b3b939c66aecf7d53967.png",
     "static/media/rowan-logo.png": "/portfolio-webapp/static/media/rowan-logo.26d24a29612509ad81f2.png",
     "index.html": "/portfolio-webapp/index.html",
-    "main.9e81c29d.css.map": "/portfolio-webapp/static/css/main.9e81c29d.css.map",
-    "main.32333d17.js.map": "/portfolio-webapp/static/js/main.32333d17.js.map",
+    "main.16dfcdc0.css.map": "/portfolio-webapp/static/css/main.16dfcdc0.css.map",
+    "main.dc909aae.js.map": "/portfolio-webapp/static/js/main.dc909aae.js.map",
     "787.12547c35.chunk.js.map": "/portfolio-webapp/static/js/787.12547c35.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e81c29d.css",
-    "static/js/main.32333d17.js"
+    "static/css/main.16dfcdc0.css",
+    "static/js/main.dc909aae.js"
   ]
 }
