@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 import downcarrot from '../../resources/images/down-carrot.png';
+import tcpdesktop from '../../resources/images/tcpdesktop.png'
 import kenneddit from '../../resources/images/kenneddit-desktop.png'
 import portdesktop from '../../resources/images/portfolio-webapp-desktop.png'
 import pythondesktop from '../../resources/images/pythondesktop.png'
@@ -31,6 +32,22 @@ export function Home() {
                     <img src={downcarrot} alt="down arrow" className="down-carrot" />
                 </div>
                 <div className='featured-work'>
+                    <div className='mid'>
+                        <a className="featured-links" href="https://www.triplecrownpromotion.com" rel="noreferrer" target="_blank"><img src={tcpdesktop} className="desktop-image" alt="desktop template"/></a>
+                        <div className="featured-work-description">
+                            <div className='mid-content'>
+                                <h1>TripleCrownPromotion.com</h1>
+                                <p>As a freelance project, I designed and continue to maintain the website for the sporting event company Triple Crown Promotion. This site is created in React, hosted by Github Pages and is registered through Google Domains.</p>
+                                <div className="skills-used-container">
+                                    <p><b>Skills Used:</b></p>
+                                    <img src={htmllogo} className="skill-logo" alt="html logo" />
+                                    <img src={csslogo} className="skill-logo" id="css-logo" alt="css logo" />
+                                    <img src={jslogo} className="skill-logo" alt="javascript logo" />
+                                    <img src={reactlogo} className="skill-logo" alt="react logo" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div className='top'>
                         <div className="featured-work-description">
                             <div className='top-content'>
